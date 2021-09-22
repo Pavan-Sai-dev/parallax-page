@@ -1,0 +1,151 @@
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+            }
+            
+            @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+            body,
+            html {
+                height: 100%;
+            }
+            
+            .parallax {
+                background: url(./icon1.jpg);
+                height: 100%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .nav-bar ul {
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 2rem;
+                padding: 2rem;
+                list-style: none;
+            }
+            
+            .nav-bar ul li {
+                padding: 1rem;
+            }
+            
+            a {
+                margin: 10px;
+                padding: 10px;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(225, 225, 225, 0.6);
+                border-radius: 7px;
+            }
+            
+            a:hover {
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+            
+            .info {
+                width: 30%;
+                height: 20%;
+                margin-left: 13rem;
+                margin-top: 10rem;
+            }
+            
+            .titles {
+                font-family: sans-serif;
+                color: #fff;
+            }
+            
+            .titles-2 {
+                color: #fff;
+                font-style: italic;
+            }
+            
+            .parallax-2 {
+                background: url(./icon2.jpg);
+                height: 80%;
+                width: 50%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .video {
+                height: 86vh;
+                margin-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                column-gap: 10px;
+                row-gap: 10px;
+            }
+            
+            .about {
+                float: right;
+                margin-right: 10%;
+                padding-top: 15rem;
+            }
+            
+            .parallax-3 {
+                background: url(./icon4.jpg);
+                height: 100%;
+                width: 100%;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .login {
+                font-family: sans-serif;
+                margin-top: 50px;
+                font-family: 'Rye', cursive;
+                color: #f2c6de;
+            }
+            
+            #Contacts {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .fileds {
+                margin-top: 50px;
+                width: 40%;
+                padding: 10px;
+                outline: none;
+                border-radius: 9px;
+                border: none;
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+            
+            .inbox {
+                width: 40%;
+                height: 18rem;
+                outline: none;
+                border-radius: 8px;
+                border: none;
+                background-color: rgba(255, 255, 255, 0.1);
+                font-family: sans-serif;
+                font-size: larger;
+                padding: 10px;
+            }
+            
+            .stb {
+                width: 40%;
+                height: 35px;
+                outline: none;
+                border-radius: 9px;
+                border: none;
+                font-size: larger;
+                font-family: sans-serif;
+                cursor: pointer;
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+            
+             ::placeholder {
+                color: #fff;
+            }
